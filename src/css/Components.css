@@ -1,9 +1,18 @@
-.bio{
-    padding: 2rem;
-}
-
 .bio p{
   color: black;
+  text-align: justify;
+}
+
+.keika{
+  text-align: center;
+}
+
+.keika h1, p, a {
+  text-align: center;
+}
+
+.keikat{
+  background-color: var(--avara-purple);
 }
 
 .logo {
@@ -15,11 +24,10 @@
 }
 
 .julkaisut{
-    padding: 2rem;
     background-color: var(--avara-gray);
 }
 
-.julkaisut h1, p, a {
+.dark h1, p, a {
   color: white;
   padding: 1.5rem;
 }
@@ -45,4 +53,9 @@
   display:flex;
   margin: auto;
   vertical-align: middle;
+}
+
+.vinyl-cover{
+  width: calc(100px + 30vh);
+
 }
