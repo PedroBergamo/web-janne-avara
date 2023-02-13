@@ -1,6 +1,5 @@
 import { Row, Col} from "react-bootstrap";
 import Janne from "../images/Janne-1.jpg";
-import React from "react";
 
 const Bio = () =>
   <div className="bio">
