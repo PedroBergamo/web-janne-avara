@@ -1,4 +1,50 @@
-import {Row, Col} from "react-bootstrap"
+import {Row, Col} from "react-bootstrap";
+import * as React from 'react';
+
+
+const NytKeikat =() => {
+  return(
+    <div>
+      <Keika
+        date="02.4"
+        location="Helsinki - G-lab"
+      />
+      <Keika
+        date="04.4"
+        location="Helsinki"
+        link=""
+        linkType="Liput"
+      />
+    </div>
+  )
+}
+
+const MenneetKeikat = () => {
+  const [isShow, setShow] = React.useState(false);
+  const handleToggle =() => {
+      setShow(!isShow);
+  };
+
+  return(
+    <div>
+      <button onClick={handleToggle} type="button">
+        Menneet Keikat
+      </button>
+      {isShow ?
+        <div>
+          <Keika
+            date="02.3"
+            location="Helsinki - G-lab"
+          />
+          <Keika
+            date="02.2"
+            location="Helsinki - G-lab"
+          />
+        </div>
+      : null}
+    </div>
+  )
+}
 
 
 const Keika = (props) =>
@@ -18,18 +64,8 @@ const Keikat = () =>
       </Col>
 
       <Col>
-        <Keika
-          date="02.4"
-          location="Helsinki - G-lab"
-        />
-
-        <Keika
-          date="04.4"
-          location="Helsinki"
-          link=""
-          linkType="Liput"
-        />
-
+        <NytKeikat/>
+        <MenneetKeikat/>
       </Col>
     </Row>
   </div>
