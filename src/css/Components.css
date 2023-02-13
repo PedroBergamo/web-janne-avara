@@ -3,6 +3,11 @@
   text-align: justify;
 }
 
+.dark h1, p, a {
+  color: white;
+  padding: 1.5rem;
+}
+
 .keika{
   text-align: center;
 }
@@ -28,11 +33,16 @@
     background-color: var(--avara-gray);
 }
 
-.dark h1, p, a {
-  color: white;
-  padding: 1.5rem;
+.nav{
+    justify-content: center;
 }
 
+.navObj{
+  color: black;
+  text-align: center;
+  display: flex;
+  padding: 1rem;
+}
 .video-button {
   position: absolute;
   text-align: center;
@@ -58,5 +68,19 @@
 
 .vinyl-cover{
   width: calc(100px + 30vh);
+}
+
+.yhteys a{
+  color: black;
+}
+
+.yhteys button{
+  background: transparent;
+      border: none;
+  justify-content: left;
+  text-align: center;
+  text-transform: lowercase;
+  margin:0;
+  text-decoration: underline;
 
 }
