@@ -8,6 +8,22 @@
   padding: 1.5rem;
 }
 
+.footer{
+  background: var(--avara-gray);
+  padding: 2rem 2rem;
+  text-align: center;
+
+}
+
+.footer p{
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.footer-a{
+  padding: 0;
+}
+
 .keika{
   text-align: center;
 }

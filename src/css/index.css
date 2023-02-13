@@ -35,3 +35,8 @@ p{
 a{
   color: var(--avara-white);
 }
+
+a:hover{
+  color: var(--avara-purple);
+  transition: all 0.8s;
+}
