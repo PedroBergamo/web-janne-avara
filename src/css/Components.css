@@ -1,3 +1,11 @@
+.bio{
+
+  background-image: url("../images/backgrounds/bg-none-2.png");
+  background-repeat: repeat;
+  background-position: center;
+}
+
+
 .bio p{
   color: black;
   text-align: justify;
@@ -9,6 +17,7 @@
 }
 
 .footer{
+
   background: var(--avara-gray);
   padding: 2rem 2rem;
   text-align: center;
@@ -35,6 +44,9 @@
 
 .keikat{
   background-color: var(--avara-purple);
+  background-image: url("../images/backgrounds/bg-none-3.png");
+  background-repeat: repeat;
+  background-position: center;
 }
 
 .logo {
@@ -47,6 +59,9 @@
 
 .julkaisut{
     background-color: var(--avara-gray);
+    background-image: url("../images/backgrounds/bg-black-2.png");
+    background-repeat: repeat;
+    background-position: center;
 }
 
 .nav{

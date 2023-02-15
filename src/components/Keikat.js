@@ -1,19 +1,20 @@
 import {Row, Col} from "react-bootstrap";
 import * as React from 'react';
 
-
 const NytKeikat =() => {
   return(
     <div>
       <Keika
-        date="02.4"
-        location="Helsinki - G-lab"
+        date="11.5.23"
+        location="Siltanen"
       />
       <Keika
-        date="04.4"
-        location="Helsinki"
-        link=""
-        linkType="Liput"
+        date="19.5.23"
+        location="Bar Ö"
+      />
+      <Keika
+        date="19.5.23"
+        location="Vastavirta"
       />
     </div>
   )
@@ -33,19 +34,34 @@ const MenneetKeikat = () => {
       {isShow ?
         <div>
           <Keika
-            date="02.3"
-            location="Helsinki - G-lab"
+            date="01.12.22"
+            location="Bar Loose"
           />
           <Keika
-            date="02.2"
-            location="Helsinki - G-lab"
+            date="24.11.22"
+            location="Secret Sauceity"
+          />
+          <Keika
+            date="05.10.22"
+            location="Ravintola Tanner"
+          />
+          <Keika
+            date="31.8.22"
+            location="Ravintola Tenho"
+          />
+          <Keika
+            date="16.08.22"
+            location="Espan Lava"
+          />
+          <Keika
+            date="07.8.21"
+            location="Elos Fest"
           />
         </div>
       : null}
     </div>
   )
 }
-
 
 const Keika = (props) =>
   <div className="keika">

@@ -11,8 +11,18 @@ const Bio = () =>
     <Col xs={12} lg={6}>
       <h1>Bio</h1>
       <p>
-      Janne Avara is a human being who sings and writes songs about nature. Living in the forests of Nuuksio, Finland, Avara is the voice of rebellious thinkers, providing to wondering souls a holistic connection with themselves by soft music delivered through an energetic performance.
-      His new album follows the formula of his well received previous releases, combining atmospheric melodies with thoughtful lyrics about a varied set of topics such as human existence, wilderness and the urge to live in the present moment.
+      Janne Avara on laulaja/lauluntekijä,
+      jonka musiikissa yhdistyvät tunnelmalliset
+      melodiat ja pohdiskelevat eksistentiaaliset
+      aiheet, kuten yksilön ja yhteiskunnan
+      suhde sekä halu kokea
+      läsnäolevan hetken ainutkertaisuus.
+      Kapinallisten ajattelijoiden inspiraationa
+       vuodesta 2021 toiminut,
+      Janne tarjoaa vaelteleville
+      sieluille kokonaisvaltaisen
+      yhteyden itseensä energisen
+      ja karismaattisen esiintymisen välityksellä.
       </p>
     </Col>
   </Row>
