@@ -4,16 +4,16 @@ import * as React from 'react';
 const NytKeikat =() => {
   return(
     <div>
-      <Keika
+      <Keikka
         date="11.5.23"
         location="Siltanen"
       />
-      <Keika
+      <Keikka
         date="19.5.23"
         location="Bar Ö"
       />
-      <Keika
-        date="19.5.23"
+      <Keikka
+        date="02.06.23"
         location="Vastavirta"
       />
     </div>
@@ -33,27 +33,27 @@ const MenneetKeikat = () => {
       </button>
       {isShow ?
         <div>
-          <Keika
+          <Keikka
             date="01.12.22"
             location="Bar Loose"
           />
-          <Keika
+          <Keikka
             date="24.11.22"
             location="Secret Sauceity"
           />
-          <Keika
+          <Keikka
             date="05.10.22"
             location="Ravintola Tanner"
           />
-          <Keika
+          <Keikka
             date="31.8.22"
             location="Ravintola Tenho"
           />
-          <Keika
+          <Keikka
             date="16.08.22"
             location="Espan Lava"
           />
-          <Keika
+          <Keikka
             date="07.8.21"
             location="Elos Fest"
           />
@@ -63,7 +63,7 @@ const MenneetKeikat = () => {
   )
 }
 
-const Keika = (props) =>
+const Keikka = (props) =>
   <div className="keika">
     <h1>{props.date}</h1>
     <p>{props.location}</p>
@@ -75,13 +75,15 @@ const Keikat = () =>
     <h1>Keikat</h1>
 
     <Row>
-      <Col className="d-none d-lg-block">
-        <img src={require("../images/keika-kuva.jpg")} width="100%" alt="keikakuva"/>
+      <Col lg={7} className="d-none d-lg-block">
+        <img className="keika-kuva" src={require("../images/keika-kuva-3.jpg")} width="80%" alt="keikakuva"/>
       </Col>
 
       <Col>
         <NytKeikat/>
         <MenneetKeikat/>
+      </Col>
+        <Col className="d-none d-lg-block">
       </Col>
     </Row>
   </div>

@@ -5,7 +5,6 @@
   background-position: center;
 }
 
-
 .bio p{
   color: black;
   text-align: justify;
@@ -17,11 +16,9 @@
 }
 
 .footer{
-
   background: var(--avara-gray);
   padding: 2rem 2rem;
   text-align: center;
-
 }
 
 .footer p{
@@ -40,6 +37,10 @@
 .keika h1, p, a {
   text-align: center;
   margin: 0;
+}
+
+.keika-kuva{
+  padding: 3rem 0;
 }
 
 .keikat{
@@ -99,6 +100,11 @@
 
 .vinyl-cover{
   width: calc(100px + 30vh);
+}
+
+.yhteys{
+  background-image: url("../images/backgrounds/background-cover-art.jpg");
+  background-size:cover;
 }
 
 .yhteys a{

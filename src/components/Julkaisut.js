@@ -11,7 +11,7 @@ const Julkaisut = () =>
         <p>
         Kuulen puiden versovan<br/>
         (VINYYLI)<br/>
-        Julkaisupäivä: 23.4.2023<br/>
+        Julkaisupäivä: 28.4.2023<br/>
         Eclipse Music
         </p>
       </Col>
