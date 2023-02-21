@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/web-janne-avara/static/css/main.898e2542.css",
-    "main.js": "/web-janne-avara/static/js/main.b4b5d483.js",
+    "main.css": "/web-janne-avara/static/css/main.7630085c.css",
+    "main.js": "/web-janne-avara/static/js/main.1591e110.js",
     "static/js/787.58d35ac8.chunk.js": "/web-janne-avara/static/js/787.58d35ac8.chunk.js",
+    "static/media/janne-video.mp4": "/web-janne-avara/static/media/janne-video.3abe30be43aa9b54f7b4.mp4",
     "static/media/Janne-1.jpg": "/web-janne-avara/static/media/Janne-1.46790e9f0e4c70d3de3d.jpg",
     "static/media/keika-kuva-3.jpg": "/web-janne-avara/static/media/keika-kuva-3.d21ffe0fe07584111709.jpg",
     "static/media/bg-none-2.png": "/web-janne-avara/static/media/bg-none-2.b2bf2d6074bb9dd88af2.png",
@@ -13,12 +14,12 @@
     "static/media/Splash.jpg": "/web-janne-avara/static/media/Splash.a7dd779ec59a4a937b01.jpg",
     "static/media/janne-logo-white.png": "/web-janne-avara/static/media/janne-logo-white.afe5391ab5dd3af331ac.png",
     "index.html": "/web-janne-avara/index.html",
-    "main.898e2542.css.map": "/web-janne-avara/static/css/main.898e2542.css.map",
-    "main.b4b5d483.js.map": "/web-janne-avara/static/js/main.b4b5d483.js.map",
+    "main.7630085c.css.map": "/web-janne-avara/static/css/main.7630085c.css.map",
+    "main.1591e110.js.map": "/web-janne-avara/static/js/main.1591e110.js.map",
     "787.58d35ac8.chunk.js.map": "/web-janne-avara/static/js/787.58d35ac8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.898e2542.css",
-    "static/js/main.b4b5d483.js"
+    "static/css/main.7630085c.css",
+    "static/js/main.1591e110.js"
   ]
 }
