@@ -29,7 +29,8 @@ h1 {
 
 p{
   text-align: justify;
-  font-size: calc(10px + 1.5vh);
+  font-size: calc(10px + 2vh);
+  letter-spacing: 0.2vh;
 }
 
 a{

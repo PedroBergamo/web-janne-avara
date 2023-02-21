@@ -1,5 +1,4 @@
 .bio{
-
   background-image: url("../images/backgrounds/bg-none-2.png");
   background-repeat: repeat;
   background-position: center;
@@ -7,7 +6,8 @@
 
 .bio p{
   color: black;
-  text-align: justify;
+  text-align: left;
+  padding: 2vmin;
 }
 
 .dark h1, p, a {
@@ -30,17 +30,19 @@
   padding: 0;
 }
 
-.keika{
+.keikka{
   text-align: center;
+  margin: 2vh;
 }
 
-.keika h1, p, a {
+.keikka h1, p, a {
   text-align: center;
   margin: 0;
+  padding: 0;
 }
 
-.keika-kuva{
-  padding: 3rem 0;
+.keikka-button{
+  margin: 2rem 0;
 }
 
 .keikat{

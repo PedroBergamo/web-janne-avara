@@ -28,7 +28,7 @@ const MenneetKeikat = () => {
 
   return(
     <div>
-      <button onClick={handleToggle} type="button">
+      <button className="keikka-button" onClick={handleToggle} type="button">
         Menneet Keikat
       </button>
       {isShow ?
@@ -57,6 +57,10 @@ const MenneetKeikat = () => {
             date="07.8.21"
             location="Elos Fest"
           />
+          <button className="keikka-button" onClick={handleToggle} type="button">
+            Takaisin
+          </button>
+
         </div>
       : null}
     </div>
@@ -64,7 +68,7 @@ const MenneetKeikat = () => {
 }
 
 const Keikka = (props) =>
-  <div className="keika">
+  <div className="keikka">
     <h1>{props.date}</h1>
     <p>{props.location}</p>
     <a href={props.link} target="_blank" rel="noreferrer">{props.linkType}</a>
@@ -76,7 +80,7 @@ const Keikat = () =>
 
     <Row>
       <Col lg={7} className="d-none d-lg-block">
-        <img className="keika-kuva" src={require("../images/keika-kuva-3.jpg")} width="80%" alt="keikakuva"/>
+        <img src={require("../images/keika-kuva-3.jpg")} width="50%" alt="keikakuva"/>
       </Col>
 
       <Col>

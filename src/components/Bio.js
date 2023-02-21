@@ -11,12 +11,14 @@ const Bio = () =>
     <Col xs={12} lg={6}>
       <h1>Bio</h1>
       <p>
-      Janne Avara on laulaja/lauluntekijä,
+      Janne Avara on laulaja-lauluntekijä,
       jonka musiikissa yhdistyvät tunnelmalliset
       melodiat ja pohdiskelevat eksistentiaaliset
       aiheet, kuten yksilön ja yhteiskunnan
       suhde sekä halu kokea
       läsnäolevan hetken ainutkertaisuus.
+      </p>
+      <p>
       Kapinallisten ajattelijoiden inspiraationa
        vuodesta 2021 toiminut,
       Janne tarjoaa vaelteleville
