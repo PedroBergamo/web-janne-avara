@@ -79,7 +79,6 @@
   position: absolute;
   text-align: center;
   display: block;
-  margin-bottom: -20%;
 }
 
 .video-container{
@@ -96,6 +95,23 @@
   display:flex;
   margin: auto;
   vertical-align: middle;
+}
+
+.video-container h1{
+  font-size: 7vh;
+}
+
+.splash-video{
+width: 100%;
+height: 100vh;
+align-items: center;
+position: relative;
+justify-content: center;
+vertical-align: middle;
+
+object-fit: cover;
+display:flex;
+margin: auto;
 }
 
 .vinyl-cover{
