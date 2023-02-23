@@ -7,7 +7,10 @@ const Julkaisut = () =>
     <h1>Julkaisut</h1>
     <Row>
       <Col xs={12} lg={6}>
-        <img className="vinyl-cover" src={Vinyl} alt="vinyl-cover"/>
+        {/*
+          <img className="vinyl-cover" src={Vinyl} alt="vinyl-cover"/>
+
+          */}
         <p>
         Kuulen puiden versovan<br/>
         (VINYYLI)<br/>
@@ -23,7 +26,10 @@ const Julkaisut = () =>
         loading="lazy">
         </iframe>
         <a href={BandCamp} target="_blank" rel="noreferrer">
-          Osta vinyyli
+
+          {/*
+            Osta vinyyli
+            */}
         </a>
       </Col>
     </Row>
