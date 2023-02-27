@@ -1,6 +1,5 @@
 import {Row, Col} from "react-bootstrap";
 import Vinyl from "../images/vinyl-cover.jpg";
-var BandCamp ="";
 
 const Julkaisut = () =>
   <div className="julkaisut dark content">
@@ -16,13 +15,7 @@ const Julkaisut = () =>
         </p>
       </Col>
       <Col xs={12} lg={6}>
-        <iframe title="spotify-janne"
-        src="https://open.spotify.com/embed/track/2g4gBK3XMLJ6xiChMf9Zf9?utm_source=generator&theme=0"
-        width="100%" height="352" frameBorder="0" allowfullscreen=""
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy">
-        </iframe>
-        <a href={BandCamp} target="_blank" rel="noreferrer">
+
           Osta vinyyli
         </a>
       </Col>
