@@ -1,6 +1,5 @@
 import './css/App.css';
 import Bio from './components/Bio.js'
-import Julkaisut from './components/Julkaisut.js'
 import Keikat from './components/Keikat.js'
 import Yhteys from './components/Yhteys.js'
 import Footer from './components/Footer.js'
@@ -18,7 +17,6 @@ function App() {
       </Helmet>
         <SplashScreen/>
         <Bio/>
-        <Julkaisut/>
         <Keikat/>
         <Yhteys/>
         <Footer/>
