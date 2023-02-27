@@ -1,25 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.bff671ad.css",
-    "main.js": "/static/js/main.c40d68b2.js",
+    "main.js": "/static/js/main.bb10277f.js",
     "static/js/787.58d35ac8.chunk.js": "/static/js/787.58d35ac8.chunk.js",
     "static/media/janne-video.mp4": "/static/media/janne-video.3abe30be43aa9b54f7b4.mp4",
     "static/media/Janne-1.jpg": "/static/media/Janne-1.46790e9f0e4c70d3de3d.jpg",
     "static/media/keika-kuva-3.jpg": "/static/media/keika-kuva-3.d21ffe0fe07584111709.jpg",
     "static/media/bg-none-2.png": "/static/media/bg-none-2.b2bf2d6074bb9dd88af2.png",
     "static/media/bg-none-3.png": "/static/media/bg-none-3.bef25986e36d01552413.png",
-    "static/media/vinyl-cover.jpg": "/static/media/vinyl-cover.344c70987fd1a8f503b0.jpg",
     "static/media/background-cover-art.jpg": "/static/media/background-cover-art.9a5dc5a6148555d69ce4.jpg",
     "static/media/bg-black-2.png": "/static/media/bg-black-2.da1aa6c588fe741ae89f.png",
     "static/media/Splash.jpg": "/static/media/Splash.a7dd779ec59a4a937b01.jpg",
     "static/media/janne-logo-white.png": "/static/media/janne-logo-white.afe5391ab5dd3af331ac.png",
     "index.html": "/index.html",
     "main.bff671ad.css.map": "/static/css/main.bff671ad.css.map",
-    "main.c40d68b2.js.map": "/static/js/main.c40d68b2.js.map",
+    "main.bb10277f.js.map": "/static/js/main.bb10277f.js.map",
     "787.58d35ac8.chunk.js.map": "/static/js/787.58d35ac8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bff671ad.css",
-    "static/js/main.c40d68b2.js"
+    "static/js/main.bb10277f.js"
   ]
 }
