@@ -14,6 +14,7 @@ function App() {
         <meta charSet="utf-8" />
         <title>Janne Avara - Official Website</title>
         <meta name="description" content="Website of singer-songwriter Janne Avara"/>
+        <meta name="google-site-verification" content="-OWSjwiltN83uZL7V2pDDemn1oAm30_VlJNBDOUhG8c" />
       </Helmet>
         <SplashScreen/>
         <Bio/>
